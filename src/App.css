@@ -1,0 +1,23 @@
+.tableFixed {
+    overflow: auto;
+    height:100px;
+    width:100%;
+}
+table{
+    width:100vw;
+}
+thead{
+    position: sticky;
+    top:0;
+    z-index:1;
+}
+
+footer{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    margin-top: 10px;
+    bottom: -17px;
+    background-color: black;
+    color:white;
+}
